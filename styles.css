@@ -6,6 +6,9 @@ body {
     background-image: url("images/bmilogo.jpg");
     padding-top: 15px;
     padding-left: 20px;
+    background-size: 1850px;
+    width: 1860px;
+    height: 850px;
 }
 
 /* bmi text*/
@@ -16,9 +19,10 @@ body {
 }
 .bmi-wrapper-text {
     padding-top: 20px;
-    padding-right: 100px;
+    padding-right: 80px;
     text-align: center;
     font-family: 'Sansita Swashed', cursive;
+    display: absolute;
 }
 .bmi-wrapper-text h1 {
     color: crimson;
@@ -31,29 +35,29 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500px;
     text-align: center;
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     background-image: url("images/12\ bg\ rem.png");
-    background-size: 850px;
-    width: 880px;
-    height: 850px;
+    background-size: 760px;
+    width: 780px;
+    height: 750px;
  }
 .texta{
     background-image: url(images/scroll.png);
-    background-size: 500px;
-    width: 490px;
-    height: 650px;
+    background-size: 430px;
+    width: 420px;
+    height: 550px;
     margin-left:150px;
 }
 .texta2{
-    margin-top: 22%;
-    
+    margin-top: 15%;
+    margin-left: 20px;
 }
 .texta2 h1{
     color: rgb(15, 219, 192);
     font-family: 'Mountains of Christmas', cursive;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .rels1 {
     margin-top: 15px;
@@ -77,7 +81,7 @@ h4  {
 
 }
 :placeholder-shown {
-    width: 200px;
+    width: 160px;
     height: 30px;
     border-radius: 5px;
 }
