@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"  />
+    <title>CALCULATOR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sansita+Swashed&display=swap" rel="stylesheet"> 
+    
+    
+</head>
+<body> 
+  <div class="container">
+        <div>HUMU PII</div>
+     <div class="two-col-wrapper" >
+        <div class="body">
+          <div class="texta"><div class="texta2">
+          <h1>BMI CALCULATOR</h1>
+            <p class="star">*----*----*----*----*----*----*----*----*----*----*----*</p>
+          
+          <h4>In Metric Form</h4>
+          <div class="main-1">
+              <p><strong><em>Height :</em></strong>
+              <input type="text" id="h" placeholder="meter" name="height" value=""/>
+           </p>
+            <p><strong><em>Weight :</em></strong>
+            <input type="text" id="w" placeholder="kilogram" name="Weight" value=""/>
+          </p>
+          </div>
+        
+       <div>
+           <button onclick="calc() ;">=</button>
+             <br>
+        </div>
+       <div class="rels1">
+           <p class="last"><strong><em>BMI : </em></strong>
+            <input type="text" id="result" placeholder="Result"/></p>
+       </div>
+             <br><br><br>
+            <p class="hp">@HP</p>
+
+             <script>
+                     function calc()
+                        { 
+                            var h = parseFloat(document.getElementById('h').value);
+                        var w = parseFloat(document.getElementById('w').value);
+                        var ss = document.getElementById('result').
+                        value = w/(h*h);
+                        
+                       }
+             </script></div> 
+              </div></div>
+                 
+                <div class="bmi-wrapper-text">
+                    <h1>Body mass index</h1>
+                    <p><font size="+2">Body mass index (BMI) is a value derived from the mass (weight) and height of a person. The BMI is defined as the body mass divided by the square of the body height, and is expressed in units of kg/m2, resulting from mass in kilograms and height in metres.</p>
+                    <p>
+                        The BMI may be determined using a table[a] or chart which displays BMI as a function of mass and height using contour lines or colours for different BMI categories, and which may use other units of measurement (converted to metric units for the calculation)<br>¯\_(ツ)_/¯</font>
+                    </p>
+                    <br>
+                    <img src="images/bmi rates.png" height="250px">
+          </div>
+          
+        </div>
+       </div>
+      </div>

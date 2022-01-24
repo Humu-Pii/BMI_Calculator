@@ -1,0 +1,106 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: black;
+}
+.container{
+    background-image: url("images/bmilogo.jpg");
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+/* bmi text*/
+
+.two-col-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bmi-wrapper-text {
+    padding-top: 20px;
+    padding-right: 100px;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+}
+.bmi-wrapper-text h1 {
+    color: crimson;
+    font-family: 'Mountains of Christmas', cursive;
+    padding: 10px;
+}
+
+/* bmi calc operation */
+.body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/12\ bg\ rem.png");
+    background-size: 850px;
+    width: 880px;
+    height: 850px;
+ }
+.texta{
+    background-image: url(images/scroll.png);
+    background-size: 500px;
+    width: 490px;
+    height: 650px;
+    margin-left:150px;
+}
+.texta2{
+    margin-top: 22%;
+    
+}
+.texta2 h1{
+    color: rgb(15, 219, 192);
+    font-family: 'Mountains of Christmas', cursive;
+    margin-left: 50px;
+}
+.rels1 {
+    margin-top: 15px;
+}
+h1 {
+    color: azure;
+}
+
+.star {
+    color: white;
+}
+
+h4  {
+    color: azure;
+    font-size: 25px;
+}
+
+.last {
+    color: black;
+    font-size: 18px;
+
+}
+:placeholder-shown {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.hp {
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    width: 65px;
+    height: 26px;
+    margin:2px 0.3px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(red, green, blue);
+    color: #ffffff;
+}
+
